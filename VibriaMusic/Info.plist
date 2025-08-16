@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.audio</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Protected MPEG-4 Audio</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.apple.protected-mpeg-4-audio</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>m4a</string>
+					<string>m4p</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>audio/mp4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.audio</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>CoreAudio Format</string>
+			<key>UTTypeIdentifier</key>
+			<string>com.apple.coreaudio-format</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>caf</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>audio/x-caf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.audio</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>AIFF-C Audio</string>
+			<key>UTTypeIdentifier</key>
+			<string>public.aifc</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>aifc</string>
+				</array>
+				<key>public.mime-type</key>
+				<string>audio/aiff</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
