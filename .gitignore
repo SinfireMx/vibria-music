@@ -1,0 +1,43 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+
+# SwiftPM
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (if ever used)
+Pods/
+Carthage/
+
+# Fastlane (if ever used)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Audio / big binaries (do not commit)
+*.mp3
+*.wav
+*.m4a
+*.aiff
+*.caf
+
+# Screenshots / exports
+*.png
+*.jpg
+*.jpeg

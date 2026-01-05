@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F53BE9B2F0C713200E91A7F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6F53BE9A2F0C712C00E91A7F /* .gitignore */; };
 		6F6A1C2C2E12992900C7FA92 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6F6A1C2B2E12992900C7FA92 /* AudioKit */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F53BE9A2F0C712C00E91A7F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6FAC5AD52DFCB5DC00BCAA68 /* VibriaMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibriaMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC5AE22DFCB5DD00BCAA68 /* VibriaMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibriaMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FAC5AEC2DFCB5DD00BCAA68 /* VibriaMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibriaMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,16 +52,6 @@
 				6F15B1C92E05676F00368CAC /* Exceptions for "VibriaMusic" folder in "VibriaMusic" target */,
 			);
 			path = VibriaMusic;
-			sourceTree = "<group>";
-		};
-		6FAC5AE52DFCB5DD00BCAA68 /* VibriaMusicTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VibriaMusicTests;
-			sourceTree = "<group>";
-		};
-		6FAC5AEF2DFCB5DD00BCAA68 /* VibriaMusicUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = VibriaMusicUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -93,9 +85,8 @@
 		6FAC5ACC2DFCB5DC00BCAA68 = {
 			isa = PBXGroup;
 			children = (
+				6F53BE9A2F0C712C00E91A7F /* .gitignore */,
 				6FAC5AD72DFCB5DC00BCAA68 /* VibriaMusic */,
-				6FAC5AE52DFCB5DD00BCAA68 /* VibriaMusicTests */,
-				6FAC5AEF2DFCB5DD00BCAA68 /* VibriaMusicUITests */,
 				6FAC5AD62DFCB5DC00BCAA68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,9 +140,6 @@
 			dependencies = (
 				6FAC5AE42DFCB5DD00BCAA68 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6FAC5AE52DFCB5DD00BCAA68 /* VibriaMusicTests */,
-			);
 			name = VibriaMusicTests;
 			packageProductDependencies = (
 			);
@@ -171,9 +159,6 @@
 			);
 			dependencies = (
 				6FAC5AEE2DFCB5DD00BCAA68 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6FAC5AEF2DFCB5DD00BCAA68 /* VibriaMusicUITests */,
 			);
 			name = VibriaMusicUITests;
 			packageProductDependencies = (
@@ -234,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F53BE9B2F0C713200E91A7F /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +413,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_PATH = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -462,6 +449,7 @@
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INSTALL_PATH = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
