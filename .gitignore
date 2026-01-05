@@ -41,3 +41,7 @@ fastlane/test_output/
 *.png
 *.jpg
 *.jpeg
+
+# Allow screenshots for README
+!screenshots/
+!screenshots/**
