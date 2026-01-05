@@ -2,9 +2,9 @@
 
 Native iOS audio player built with Swift & SwiftUI.
 
-![Songlist](screenshots/songlist.png)
-![Playlists](screenshots/playlist.png)
-![Triangle UI](screenshots/triangle.png)
+![Songlist](screenshots/songlist.PNG)
+![Playlists](screenshots/playlist.PNG)
+![Triangle UI](screenshots/triangle.PNG)
 
 Vibria Music is a native iOS audio player built with Swift and SwiftUI, focused on offline playback of local audio files imported via the system Files app.
 
