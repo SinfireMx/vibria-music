@@ -42,6 +42,6 @@ fastlane/test_output/
 *.jpg
 *.jpeg
 
-# Allow screenshots for README
+# Allow screenshots committed to repo
 !screenshots/
 !screenshots/**
